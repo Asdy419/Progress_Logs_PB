@@ -17,6 +17,7 @@ To begin, I had to get a build working on my device, which required me to use Vi
 
 ![alt text](image-1.png)
 
-### Reading documentation
+### Reading development guidelines / structure
+
 
 ### What I learned
