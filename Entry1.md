@@ -18,6 +18,21 @@ To begin, I had to get a build working on my device, which required me to use Vi
 ![alt text](image-1.png)
 
 ### Reading development guidelines / structure
+#### Debugging
+First and foremost, the documentation outlines how to debug, which is going to be a major factor during developmet if I choose to implement / fix any existing code whilst contributing. 
 
+Here's the guidelines I'm given:
 
-### What I learned
+![alt text](image-2.png)
+
+The first couple of lines were self explanitory, however, the point which I thought i might need to look into were all the different debugging methods, such as spdlog::trace, spdlog::info, spdlog::debug etc.
+
+#### Engine Design
+The last thing I thought was critical to look over before I go into actually learning the vulkan engine, was the [engine design](https://inexor-vulkan-renderer.readthedocs.io/en/latest/development/engine-design/main.html).  
+
+Some of the key things i noted down were:
+- don't start get methods with "get_"
+- Literature section for reading
+- Avoid dependancy use unless absoloutely necessary
+- ![alt text](image-3.png) <-- Naming convention
+
